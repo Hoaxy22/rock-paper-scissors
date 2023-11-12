@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.header, .bottom-content{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.header button{
+    background-color: lightsalmon;
+    padding: 20px;
+    border-color: beige;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.content{
+    background-color: azure;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.choiceButton{
+    border: 6px solid lightsalmon;
+    border-radius: 7px;
+    padding: 10px;
+}
+.choiceButton:hover{
+    border: 6px dotted red;
+    cursor: grab;
+}
+.bottom-content{
+    min-height: 175px;
+}
+.footer{
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 250px;
+    align-items: center;
+}
